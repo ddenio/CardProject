@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>Card Project</title>
+	  <script src="js/cardProject.js"></script>
+	  <link rel="stylesheet" href="css/cardProject.css">
+	  <script src="https://kit.fontawesome.com/217d22a042.js" crossorigin="anonymous"></script>
+	  <meta name='viewport' content='width=device-width,initial-scale=1'>
+</head>
+
+<body>
+			<h1> Card Game </h1>
+			<h2> Click a card below to send it to the trash! </h2>
+
+	 <div class ="container">
+	 		<img id="card1" alt = "Ace of Cat" src = "img/cat1.jpg" onclick = "rotate()">
+	 		<!-- <h2 id="card1" onclick = "start()"> Card 1 </h2> -->
+	 		<img id="card2" alt = "4 of Cat" src = "img/cat2.jpg" onclick = "rotate2()">
+	 		<!-- <h2 id="card2" onclick = "rotate2()"> Card 2 </h2> -->
+	 		<img id="card3" alt = "8 of Cat" src = "img/cat3.jpg" onclick = "rotate3()">
+	 	  <!-- <h2 id="card3" onclick = "rotate3()"> Card 3 </h2> -->
+	 	  <img id="card4" alt = "10 of Cat" src = "img/cat4.jpg" onclick = "rotate4()">
+	 		<!-- <h2 id="card4" onclick = "rotate4()"> Card 4 </h2> -->
+	 	</div>
+
+	 	<button id="reset" type="button" onClick="window.location.href=window.location.href">Reset</button>
+	 	<img id="trashcan" alt = "trashcan" src ="img/trashcan.jpg">
+
+<!-- End Goal: Click card, they spin for 2s, and then move and spin in arc to trash -->
+<!-- First goal; spin on click
+        Second goal ;straight to trash
+        third goal, arc to trash -->
+
+	<footer>
+		&copy; 2021 A Derin DeNio and Matt Paiz Project
+	</footer>
+
+	 </body>
+	 </html>
